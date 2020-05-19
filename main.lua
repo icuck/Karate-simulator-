@@ -133,7 +133,7 @@ end)
 
 local tab3 = library:CreateTab("Extras", false, Color3.new(0,.7,.5))
 
-local toggle = library:MakeToggle(tab3,"Loop-Killall",false,function(toggle)
+local toggle = library:MakeToggle(tab3,"Soup toggle",false,function(toggle)
 	print(toggle.Text)
 	_G.KGod_ = toggle.Text
 end)
